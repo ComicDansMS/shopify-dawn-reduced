@@ -1,5 +1,5 @@
 # Shopify Dawn - Reduced
-This theme is a reduced version of Shopify's Dawn.
+This theme is a reduced version of Shopify's Dawn version 8.0.0-rc.
 It's a starting point for projects where the ability to change theme settings isn't desireable.
 The most settings have been stripped from settings_schema.json, and anything accessing them from liquid files has been hard coded to the default values.
 Some useful properties remain in theme.liquid and have been hard coded.
