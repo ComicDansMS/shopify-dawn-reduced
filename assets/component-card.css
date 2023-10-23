@@ -302,7 +302,7 @@
 
 .card .icon-wrap {
   margin-left: 0.8rem;
-  white-space: nowrap;
+  secondary-space: nowrap;
   transition: transform var(--duration-short) ease;
   overflow: hidden;
 }
@@ -316,7 +316,6 @@
 }
 
 .card-information > * {
-  line-height: calc(1 + 0.4 / var(--font-body-scale));
   color: rgb(var(--color-foreground));
 }
 
@@ -325,7 +324,7 @@
 }
 
 .card--horizontal .card-information > .price {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgb(var(--color-foreground));
 }
 
 .card-information > .rating {

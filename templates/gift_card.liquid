@@ -24,26 +24,35 @@
     {{ content_for_header }}
 
     {% style %}
+      @font-face {
+        font-family: pp-neue-montreal-regular;
+        src: url({{ 'pp-neue-montreal-regular.woff2' | asset_url }}) format("woff2");
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: pp-neue-montreal-medium;
+        src: url({{ 'pp-neue-montreal-medium.woff2' | asset_url }}) format("woff2");
+        font-weight: 500;
+      }
+
       :root {
-        --font-body-family: 'Lato', sans-serif;
-        --font-body-weight: 300;
-        --font-heading-family: 'Lato', sans-serif;
-        --font-heading-weight: 300;
+        --font-body-family: pp-neue-montreal-regular, sans-serif;
+        --font-body-weight: 400;
+        --font-body-weight-bold: 500;
+        --font-heading-family: tt-ramillas-regular, sans-serif;
+        --font-heading-weight: 500;
 
-        --font-body-scale: 1;
-        --font-heading-scale: 1;
+        --color-base-primary: 48, 79, 68;
+        --color-base-secondary: 228, 219, 207;
+        --color-base-tertiary: 238, 200, 117;
+        --payment-terms-background-color: var(--color-base-secondary);
 
-        --color-base-charcoal: 51, 50, 50; /* charcoal */
-        --color-base-white: 255, 255, 255; /* white */
-        --color-base-sand: 237, 233, 221; /* sand */
-        --color-base-olive: 118, 134, 123; /* olive */
-        --payment-terms-background: var(--color-base-white);
+        --popup-shadow: 0.6rem 0.7rem 1.5rem -0.6rem rgba(var(--color-foreground),0.1);
 
         --page-width: 1800px;
-        --page-gutter: 2rem;
-        --grid-spacing: 2rem;
+        --page-width-margin: 2rem;
 
-        /* Could be useful to use */
         --spacing-sections-desktop: 0px;
         --spacing-sections-mobile: 0px;
 
@@ -51,6 +60,18 @@
         --grid-desktop-horizontal-spacing: 2rem;
         --grid-mobile-vertical-spacing: 2rem;
         --grid-mobile-horizontal-spacing: 2rem;
+      }
+
+      @media screen and (min-width: 750px) {
+        :root {
+          --page-width-margin: 3.5rem;
+        }
+      }
+
+      @media screen and (min-width: 990px) {
+        :root {
+          --page-width-margin: 5.5rem;
+        }
       }
     {% endstyle %}
 

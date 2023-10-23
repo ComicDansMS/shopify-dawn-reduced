@@ -41,7 +41,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "white",
+        "color_scheme": "secondary",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -69,7 +69,7 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "white",
+        "color_scheme": "secondary",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -83,7 +83,7 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "white",
+        "color_scheme": "secondary",
         "show_view_all": false,
         "swipe_on_mobile": false,
         "image_ratio": "adapt",
@@ -128,7 +128,7 @@
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
-        "color_scheme": "white",
+        "color_scheme": "secondary",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -141,7 +141,7 @@
         "heading_size": "h1",
         "description": "",
         "full_width": false,
-        "color_scheme": "white",
+        "color_scheme": "secondary",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -193,7 +193,7 @@
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
-        "color_scheme": "white",
+        "color_scheme": "secondary",
         "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36

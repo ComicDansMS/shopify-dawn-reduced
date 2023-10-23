@@ -65,7 +65,7 @@
   border-top: 0;
 }
 
-.collapsible-row-layout .accordion:not(:first-child):not(.color-white) {
+.collapsible-row-layout .accordion:not(:first-child):not(.color-secondary) {
   margin-top: 1rem;
 }
 

@@ -184,7 +184,7 @@ predictive-search[loading]
 }
 
 .predictive-search__item-query-result mark {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgb(var(--color-foreground));
 }
 
 .predictive-search__item-query-result mark {
@@ -206,7 +206,6 @@ predictive-search[loading]
   align-items: center;
   padding: 1.3rem 2rem;
   word-break: break-all;
-  line-height: calc(1 + 0.4 / var(--font-body-scale));
 }
 
 @media screen and (min-width: 750px) {

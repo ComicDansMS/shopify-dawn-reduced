@@ -33,7 +33,7 @@
         "footer-2"
       ],
       "settings": {
-        "color_scheme": "white",
+        "color_scheme": "secondary",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "show_social": true,

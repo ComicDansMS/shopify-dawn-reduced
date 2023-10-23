@@ -149,7 +149,7 @@
                     </button>
                   </div>
                 </modal-opener>
-                <modal-dialog id="PopupModal-{{ block.id }}" class="modal-video media-modal color-background-1">
+                <modal-dialog id="PopupModal-{{ block.id }}" class="modal-video media-modal">
                   <div
                     class="modal-video__content"
                     role="dialog"
@@ -287,23 +287,19 @@
       "id": "color_scheme",
       "options": [
         {
-          "value": "olive",
-          "label": "Olive"
+          "value": "primary",
+          "label": "Primary"
         },
         {
-          "value": "sand",
-          "label": "Sand"
+          "value": "secondary",
+          "label": "Secondary"
         },
         {
-          "value": "white",
-          "label": "White"
-        },
-        {
-          "value": "charcoal",
-          "label": "Charcoal"
+          "value": "tertiary",
+          "label": "Tertiary"
         }
       ],
-      "default": "white",
+      "default": "secondary",
       "label": "t:sections.all.colors.label",
       "info": "t:sections.all.colors.has_cards_info"
     },

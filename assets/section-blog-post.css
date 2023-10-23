@@ -56,7 +56,7 @@
 .article-template header {
   margin-top: 4.4rem;
   margin-bottom: 2rem;
-  line-height: calc(0.8 / var(--font-body-scale));
+  line-height: 0.8;
 }
 
 @media screen and (min-width: 750px) {
@@ -132,7 +132,7 @@
 }
 
 .article-template__comments-comment {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgb(var(--color-foreground));
   background: rgb(var(--color-background));
   margin-bottom: 1.5rem;
   padding: 2rem 2rem 1.5rem;
